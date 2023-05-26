@@ -1,0 +1,4 @@
+﻿Bazı nesneler vardır ki her bir istek için ayrı ayrı oluşturmaya gerek yoktur.Örneğin db connection gibi.Her istemci için ayrı ayrı bu nesneyi oluşturmak performans kaybına sebep olacaktır.Singleton ile oluşturulan nesneler tek bir örnek üzerinde kalır ve her istemci bu örneği kullanır.
+
+Singleton tasarım kalıbını bu şekilde her nesne için uygulayamayız.Şöyle ki projemizde her kullanıcı için farklı işlemler gerçekleştiren bir class için singleton uygularsak her bir kullanıcı için aynı verileri kullanmış oluruz.Örneğin her kullanıcının kullanıcı adı aynı olur gibi.
+
